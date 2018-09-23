@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+lpoly $1 $2, ci noscatter legend(${3:off}) lineopts(lcolor($4)) ciopts(color($5)) ]]></content>
+	<tabTrigger>lp</tabTrigger>
+	<scope>source.stata</scope>
+</snippet>
+
+
+

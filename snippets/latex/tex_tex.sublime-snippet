@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[{\TeX}]]></content>
+    <tabTrigger>tex</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Itemize</description>
+</snippet>

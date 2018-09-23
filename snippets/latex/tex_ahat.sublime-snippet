@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[\hat{\alpha}]]></content>
+    <tabTrigger>ahat</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>alphahat</description>
+</snippet>
+
+
+

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\todo${1:[inline]}{${2:contents}}$0
+]]></content>
+	<tabTrigger>todo</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

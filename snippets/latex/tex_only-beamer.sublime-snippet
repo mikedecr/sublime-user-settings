@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[\only<${1:n-m}>{
+$0
+}]]></content>
+    <tabTrigger>only</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Beamer Only</description>
+</snippet>

@@ -1,0 +1,48 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AlignTab",
+		"ayu",
+		"BracketHighlighter",
+		"Comments Aware Enter",
+		"Evernote",
+		"Expand Selection to Quotes",
+		"File Rename",
+		"FontCycler",
+		"Git Config",
+		"GitGutter",
+		"Highlight Dodgy Chars",
+		"Julia",
+		"LaTeX Word Count",
+		"LaTeXSmartQuotes",
+		"LaTeXTools",
+		"LyxMath",
+		"Markdown Extended",
+		"MarkdownEditing",
+		"MoveTab",
+		"Package Control",
+		"PackageResourceViewer",
+		"ProjectManager",
+		"Python 3",
+		"R-Box",
+		"Schemr",
+		"ScopeHunter",
+		"SCSS",
+		"SendCode",
+		"SideBarEnhancements",
+		"Stan",
+		"Stata Enhanced",
+		"SublimeREPL",
+		"TerminalView",
+		"Text Pastry",
+		"Theme - Fladaptive",
+		"Themr",
+		"TOML",
+		"ZSH"
+	]
+}

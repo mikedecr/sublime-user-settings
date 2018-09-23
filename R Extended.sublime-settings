@@ -1,0 +1,20 @@
+{
+	// "color_scheme": "Packages/User/smarter-solarized.tmTheme",
+	// "color_scheme": "Packages/User/solarized-smart-dark.tmTheme",
+	// 	"color_scheme": "Packages/User/solarized-smart-light.tmTheme",
+
+	"draw_centered" : true,
+	"extensions":
+	[
+		"r",
+		".Rprofile",
+		"R",
+		"bugs",
+		"bug"
+	],
+	// "font_face": "Droid Sans Mono",
+	// "font_options": ["standardaliasing"],
+	"highlight_line": false,
+	// "wrap_width": 0,
+	"word_separators": "/\\()\"'-:,;<>~!@#$%^&*|+=[]{}`~?"
+}

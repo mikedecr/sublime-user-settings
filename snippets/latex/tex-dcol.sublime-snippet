@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[\dcol{${1:input}}{${2:output}}{${3:-1}}]]></content>
+    <tabTrigger>dcol</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>dcol</description>
+</snippet>
+
+
+

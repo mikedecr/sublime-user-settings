@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${0:library(foreign) 
+${1:data frame} <- read.dta("${2:filename}.dta", convert.dates=TRUE, convert.factors=TRUE, convert.underscore=TRUE)
+attach($1)}]]></content>
+    <tabTrigger>dta</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

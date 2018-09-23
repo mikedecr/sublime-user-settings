@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+\title{$1}
+\author{$2}
+\date{$3}
+\maketitle
+]]></content>
+    <tabTrigger>title</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Title</description>
+</snippet>

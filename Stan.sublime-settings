@@ -1,0 +1,14 @@
+{
+	// "color_scheme": "Packages/User/cobalt2-tweak.tmTheme",
+	// "color_scheme": "Packages/Theme - Flatgrammer/Flatgrammer.tmTheme",
+		// "color_scheme": "Packages/User/solarized-smart-dark.tmTheme",
+
+
+	"extensions":
+	[
+		"stan"
+	],
+ "draw_centered": true,
+	"highlight_line": false,
+ "tab_size": 2
+}

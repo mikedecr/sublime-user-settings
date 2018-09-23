@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+${1:c_mod} <- stanc(file = "${2:stan/path}.stan")
+${3:compiled_mod} <- stan_model(stanc_ret = $1, verbose = TRUE)
+
+${4:stan_data}
+
+sampling(object = $3, 
+         data = $4, 
+         iter = $5, 
+         thin = $6, 
+         chains = $7)
+]]></content>
+    <tabTrigger>stan</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

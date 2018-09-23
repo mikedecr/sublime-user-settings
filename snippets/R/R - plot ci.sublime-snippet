@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[plot.ci(lower = ${1:effect.matrix}\$ci.lower, upper = ${1:effect.matrix}\$ci.upper, x=${1:effect.matrix}\$x, col=${2:"gray"})]]></content>
+    <tabTrigger>ci</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

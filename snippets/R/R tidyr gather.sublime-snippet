@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+gather(key = ${1:resulting label}, value = ${2:resulting cell}, ${0:varlist})
+]]></content>
+    <tabTrigger>gather</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

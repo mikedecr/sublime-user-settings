@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[\\begin{enumerate}${1:[nosep]}
+	\item $0
+\\end{enumerate}]]></content>
+    <tabTrigger>en</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Enumerate</description>
+</snippet>

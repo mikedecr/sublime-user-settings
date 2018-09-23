@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[beepr::beep(2)]]></content>
+    <tabTrigger>b</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

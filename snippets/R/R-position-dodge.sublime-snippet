@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+position = position_dodge(width = -0.25)
+]]></content>
+    <tabTrigger>dodge</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

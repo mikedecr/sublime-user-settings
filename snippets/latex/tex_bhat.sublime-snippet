@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[\hat{\beta}]]></content>
+    <tabTrigger>bhat</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>betahat</description>
+</snippet>
+
+
+

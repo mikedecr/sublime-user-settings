@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1:obj.name} <- read.table("${2:filename}.csv", header=TRUE, sep="$3") $4]]></content>
+    <tabTrigger>csv</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

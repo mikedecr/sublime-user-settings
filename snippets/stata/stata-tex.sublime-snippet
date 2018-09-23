@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+outtex, level below plain legend details labels title("${1:Caption here}") key("${2:label here}") file("tex/tables/${3:filename}.tex") replace
+]]></content>
+	<tabTrigger>outtex</tabTrigger>
+	<scope>source.stata</scope>
+</snippet>
+
+

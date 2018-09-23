@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+sapply(strsplit(${1:string}, split = "${2:pattern}"), function(x) $3))
+]]></content>
+    <tabTrigger>split2</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

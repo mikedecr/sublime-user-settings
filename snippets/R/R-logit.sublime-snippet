@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:object}<-glm(${2:DV}~${3:IVs}, family=binomial(link="logit"), data=${4:data}) $0
+summary($1)
+]]></content>
+    <tabTrigger>rlogit</tabTrigger>
+    <scope>source.r</scope>
+    <description>Computes and displays logit models in R</description>
+</snippet>

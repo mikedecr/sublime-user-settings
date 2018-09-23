@@ -1,0 +1,11 @@
+<snippet>
+ <content><![CDATA[
+${1:% }\begin{minipage}{\linewidth}
+\begin{lstlisting}
+  $2
+\end{lstlisting}
+${1:% }\end{minipage}
+]]></content>
+ <tabTrigger>ll</tabTrigger>
+ <scope>text.tex.latex</scope>
+</snippet>

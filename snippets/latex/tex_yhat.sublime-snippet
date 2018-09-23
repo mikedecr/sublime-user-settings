@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[\hat{y}]]></content>
+    <tabTrigger>yhat</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>ybar</description>
+</snippet>
+
+
+

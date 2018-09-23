@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+
+twoway (scatter ${1:yvar} ${2:xvar}) (lowess $1 $2)]]></content>
+	<tabTrigger>lowres</tabTrigger>
+	<scope>source.stata</scope>
+</snippet>
+
+

@@ -1,0 +1,16 @@
+{
+	// "color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+	"draw_centered": true,
+	"extensions":
+	[
+		"rmd",
+		"Rmd",
+		"Rmdown",
+		"rmdown"
+	],
+ "font_face": "Inconsolata-dz",
+	"highlight_line": false,
+	"spell_check": true,
+ "tab_size": 2
+ 
+}

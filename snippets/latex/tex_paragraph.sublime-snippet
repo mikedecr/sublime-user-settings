@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\pull]]></content>
+    <tabTrigger>p</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Section</description>
+</snippet>

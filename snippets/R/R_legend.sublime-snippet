@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+legend("${1:placement}", $0
+	legend=c($2),
+	${3:lty=c($4),}
+	${5:lwd=c($6),}
+	${7:pch=c($8),}
+	${9:col=c("$10"),}
+	${11:pt.bg="$12",}
+	bg="$13"
+)
+]]></content>
+    <tabTrigger>legend</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

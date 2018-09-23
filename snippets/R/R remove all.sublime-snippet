@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+rm(list = ls())]]></content>
+    <tabTrigger>rm</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

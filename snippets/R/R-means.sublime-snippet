@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+library(plotrix) ; library(Rmisc)  $5
+${1:object}<-aggregate(${2:Var} ~ ${3:group + group}, data=${4:dataframe}, function($2) c( mean = CI($2), se = std.error($2), n = length($2) ) )
+$1]]></content>
+    <tabTrigger>means</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

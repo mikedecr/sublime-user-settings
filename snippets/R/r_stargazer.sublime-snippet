@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+stargazer(${1:modelz}, align=TRUE, ${2:se = list($3),} title="$4", dep.var.labels=c("$5"), ${6:column.labels=c($7),} covariate.labels=c($8),  ${9:no.space=TRUE,} dep.var.labels.include
+,
+out="tex/tables/${10:filename}.tex")]]></content>
+    <tabTrigger>sg</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

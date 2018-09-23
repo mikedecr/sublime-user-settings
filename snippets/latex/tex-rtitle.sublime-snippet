@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+\begin{center}
+	{\Large 
+	\textbf{${1:TITLE}}} 	\\\
+	Michael DeCrescenzo		\\\
+	Political Science ${2:COURSE \#}	
+\end{center}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>rtitle</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.tex.latex</scope>
+</snippet>

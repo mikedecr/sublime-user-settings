@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[tabstat ${1:var}, by($2) statistics(mean semean n)]]></content>
+	<tabTrigger>means</tabTrigger>
+	<scope>source.stata</scope>
+</snippet>
+
+
+

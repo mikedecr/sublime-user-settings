@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[ggplot(data = $1, aes(x = $2, ${3: y = $4})) +
+	$0
+]]></content>
+    <tabTrigger>gg</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

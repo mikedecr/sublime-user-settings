@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+rm($1)]]></content>
+    <tabTrigger>remove</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

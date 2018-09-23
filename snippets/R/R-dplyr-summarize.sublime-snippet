@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+summarize($1) $0
+]]></content>
+    <tabTrigger>s</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

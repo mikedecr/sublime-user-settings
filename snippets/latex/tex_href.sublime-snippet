@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\href{${1:URL}}{${2:text}}]]></content>
+    <tabTrigger>href</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>href</description>
+</snippet>

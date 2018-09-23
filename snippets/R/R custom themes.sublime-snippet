@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+#  custom ggtheme, import from Github
+${1:theme_url <- 
+  "https://raw.githubusercontent.com/mikedecr/theme-mgd/master/theme-mgd.R"
+(source(theme_url))
+theme_set(theme_mgd())}
+$0
+]]></content>
+    <tabTrigger>themes</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

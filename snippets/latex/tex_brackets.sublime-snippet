@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[\left[ $0 \right]]></content>
+    <tabTrigger>\left[</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>betahat</description>
+</snippet>
+
+
+

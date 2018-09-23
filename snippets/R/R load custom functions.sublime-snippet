@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+# custom Effects plotting package
+source("/Users/michaeldecrescenzo/Box Sync/R learning/Custom/mgd-effects.R")
+]]></content>
+    <tabTrigger>effects</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

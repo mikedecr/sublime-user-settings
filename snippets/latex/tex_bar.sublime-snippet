@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[\bar{$1}$0]]></content>
+    <tabTrigger>bar</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>\bar{?}</description>
+</snippet>
+
+
+

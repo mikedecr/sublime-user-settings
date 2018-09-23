@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[i.${1:Factor}##c.${2:Other} ]]></content>
+	<tabTrigger>int</tabTrigger>
+	<scope>source.stata</scope>
+</snippet>
+
+
+

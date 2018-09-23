@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[(X'X)^{-1}$0]]></content>
+    <tabTrigger>x'x</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>(X'X)^-1</description>
+</snippet>
+
+
+

@@ -1,0 +1,28 @@
+{
+	"code_friendly": true,
+	"code_highlighting_style": "xcode",
+	// "color_scheme": "Packages/Base16 Color Schemes/base16-harmonic16.dark.tmTheme",
+	    // "color_scheme": "Packages/Theme - Afterglow/Afterglow-markdown.tmTheme",
+
+	// "color_scheme": "Packages/One Dark Color Scheme/One Dark.tmTheme",
+	// "color_scheme": "Packages/OneDarkMaterial/schemes/OneDark.tmTheme",
+
+	// "color_scheme": "Packages/Base16 Color Schemes/Themes/base16-ocean.tmTheme",
+
+
+
+	"debug": true,
+
+    // "font_face": "Droid Sans Mono",
+
+    // "font_options": [ "standardantialiasing" ],
+
+
+	"highlight_line": false,
+	"hot_exit": true,
+	"noteStoreUrl": "https://www.evernote.com/shard/s241/notestore",
+	"spell_check": false,
+	"tab_size": 2,
+	"token": "S=s241:U=1cd67a0:E=15e57a482bc:C=156fff353c0:P=1cd:A=en-devtoken:V=2:H=45d90116850ab409a90d195ccddc5af6",
+	"wrap_width": 0
+}

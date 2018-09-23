@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[\section${2:*}{${1:section name}}
+
+$0]]></content>
+    <tabTrigger>s</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Section</description>
+</snippet>

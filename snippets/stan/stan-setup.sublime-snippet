@@ -1,0 +1,43 @@
+<snippet>
+    <content><![CDATA[
+data {
+ 
+  $0
+
+}
+
+${1:transformed data {
+ 
+
+
+\}}
+
+parameters {
+ 
+
+
+}
+
+${2:transformed parameters {
+ 
+
+
+\}}
+
+model {
+ 
+
+
+}
+
+${3:generated quantities {
+ 
+
+
+\}}
+
+]]></content>
+    <tabTrigger>setup</tabTrigger>
+    <scope>source.stan</scope>
+    <description>setup stan file</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[```$1
+$2
+```
+
+$0]]></content>
+  <tabTrigger>cb</tabTrigger>
+  <scope>text.html.markdown.multimarkdown, text.html.markdown</scope>
+</snippet>

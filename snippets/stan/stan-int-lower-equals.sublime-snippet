@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+int<lower = $1> $0]]></content>
+    <tabTrigger>ile</tabTrigger>
+    <scope>source.stan</scope>
+    <description></description>
+</snippet>

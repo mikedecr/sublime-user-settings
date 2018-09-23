@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+${1:library("magrittr")
+library("tidyverse")
+library("ggplot2")}
+$0]]></content>
+	<tabTrigger>tidy</tabTrigger>
+	<scope>source.r</scope>
+</snippet>
+
+
+

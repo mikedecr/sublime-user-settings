@@ -1,0 +1,5 @@
+[
+		{"command": "move_to", "args": {"to": "hardeol"}},
+  { "command": "insert_snippet", "args": {"contents": "$0\n"}}
+]
+

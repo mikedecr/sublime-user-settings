@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+axis.text.x = element_text(angle = 45, vjust = 0.8)
+]]></content>
+    <tabTrigger>diag</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

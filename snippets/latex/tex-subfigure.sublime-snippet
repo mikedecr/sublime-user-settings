@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+\begin{figure}[${1:htb?}]
+    \begin{center}    	
+        \begin{subfigure}[t]{${2:some_fraction}\textwidth}
+                \includegraphics[width=\textwidth]{${3:filename}}
+                \caption{${8}}
+              	\label{sfig:${4:label1}}
+        \end{subfigure} ${11:%???%} //
+        \begin{subfigure}[t]{$2\textwidth}
+                \includegraphics[width=\textwidth]{${5:filename2}}
+                \caption{${9}}
+                \label{sfig:${6:label1}}
+        \end{subfigure} 	
+        \caption{${10}}
+        \label{sfig:${7:label1}}
+    \end{center}    
+\end{figure}
+]]></content>
+	<tabTrigger>sf</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[as.numeric($1)$0]]></content>
+    <tabTrigger>an</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

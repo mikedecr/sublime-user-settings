@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>LightStack</string>
+
+  <key>uuid</key>
+  <string>A1E55FCB-3CD2-4811-9E73-D9B87419443A</string>
+
+  <key>settings</key>
+  <array>
+    <!-- General Settings -->
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#333333</string>
+        <key>background</key>
+        <string>#F3F3F3</string>
+
+        <key>gutterForeground</key>
+        <string>#33333333</string>
+
+        <key>caret</key>
+        <string>#FF0000</string>
+
+        <key>selection</key>
+        <string>#FFEE66</string>
+        <key>selectionBorder</key>
+        <string>#FFEE6600</string>
+
+        <key>findHighlight</key>
+        <string>#FFAA3399</string>
+
+        <!-- "highlight_line": true|false -->
+        <key>lineHighlight</key>
+        <string>#FFFFFF99</string>
+
+        <!-- "indent_guide_options": ["draw_normal"] -->
+        <key>guide</key>
+        <string>#D6D6D6</string>
+
+        <!--  "indent_guide_options": [ "draw_active" ] -->
+        <key>stackGuide</key>
+        <string>#D6D6D6</string>
+        <key>activeGuide</key>
+        <string>#FF000033</string>
+
+        <!-- "draw_white_space": "all"|"selection" -->
+        <key>invisibles</key>
+        <string>#D6D6D6</string>
+      </dict>
+    </dict>
+
+    <!-- General Language -->
+    <dict>
+      <key>name</key>
+      <string>Keyword, Storage, Property Separator</string>
+      <key>scope</key>
+      <string>keyword, storage, punctuation.separator.property</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#CC0000</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Support</string>
+      <key>scope</key>
+      <string>support</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#3399FF</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Constant, Global</string>
+      <key>scope</key>
+      <string>constant, variable.other.global</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#7292C3</string>
+        <key>background</key>
+        <string>#7292C31A</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Variable Punctuation</string>
+      <key>scope</key>
+      <string>punctuation.definition.variable</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#AA3333</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Variable</string>
+      <key>scope</key>
+      <string>variable</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#333333</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>String</string>
+      <key>scope</key>
+      <string>string, meta.verbatim</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#FFFC0010</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Tag and String Definition</string>
+      <key>scope</key>
+      <string>punctuation.definition.tag, punctuation.section.tag, punctuation.section.embedded, punctuation.definition.string, comment.block.twig punctuation.definition.comment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#66666633</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Tag Content</string>
+      <key>scope</key>
+      <string>meta.tag</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#66666699</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Invalid</string>
+      <key>scope</key>
+      <string>invalid</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#C82829</string>
+        <key>foreground</key>
+        <string>#FFFFFF</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Deprecated</string>
+      <key>scope</key>
+      <string>invalid.deprecated</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#C82829AA</string>
+        <key>foreground</key>
+        <string>#FFFFFF</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Comment</string>
+      <key>scope</key>
+      <string>comment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#33333366</string>
+      </dict>
+    </dict>
+
+    <!-- PHP/HTML/CSS -->
+    <dict>
+      <key>name</key>
+      <string>Inline Embedded</string>
+      <key>scope</key>
+      <string>source.php.embedded.line, string.quoted.double meta.tag</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>CSS HTML ID Selector and HTML ID</string>
+      <key>scope</key>
+      <string>entity.other.attribute-name.id.css, meta.toc-list.id.html</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FF6633</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>CSS Other Selectors</string>
+      <key>scope</key>
+      <string>meta.attribute-selector.css, entity.other.attribute-name.pseudo-class.css</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#FFAA0033</string>
+      </dict>
+    </dict>
+
+    <!-- Markup (Tested with Markdown.) -->
+    <dict>
+      <key>name</key>
+      <string>Markup Bold</string>
+      <key>scope</key>
+      <string>markup.heading, markup.bold</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Markup Italic</string>
+      <key>scope</key>
+      <string>markup.italic, markup.quote</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Markup Context</string>
+      <key>scope</key>
+      <string>markup.raw, markup.quote</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#CCCCCC33</string>
+      </dict>
+    </dict>
+
+    <!-- DIFF -->
+    <dict>
+      <key>name</key>
+      <string>Diff Header</string>
+      <key>scope</key>
+      <string>meta.diff.header.from-file, meta.diff.header.to-file</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Diff Deleted</string>
+      <key>scope</key>
+      <string>meta.diff.header.from-file, markup.deleted</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#993333</string>
+        <key>background</key>
+        <string>#FF666633</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Diff Inserted</string>
+      <key>scope</key>
+      <string>meta.diff.header.to-file, markup.inserted</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#006633</string>
+        <key>background</key>
+        <string>#33CC6633</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Diff Range</string>
+      <key>scope</key>
+      <string>meta.diff.range.unified</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#66666633</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Diff Changed</string>
+      <key>scope</key>
+      <string>markup.changed</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FF9966</string>
+      </dict>
+    </dict>
+
+    <!-- GitGutter (https://github.com/jisaacks/GitGutter) -->
+    <dict>
+      <key>name</key>
+      <string>Diff Deleted GitGutter</string>
+      <key>scope</key>
+      <string>markup.deleted.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#99333399</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Diff Inserted GitGutter</string>
+      <key>scope</key>
+      <string>markup.inserted.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#00663399</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Diff Changed GitGutter</string>
+      <key>scope</key>
+      <string>markup.changed.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FF996699</string>
+      </dict>
+    </dict>
+
+    <!-- Search -->
+    <dict>
+      <key>name</key>
+      <string>Search File Path</string>
+      <key>scope</key>
+      <string>entity.name.filename.find-in-files</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#CC0000</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Search Line Numbers</string>
+      <key>scope</key>
+      <string>constant.numeric.line-number.find-in-files</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#33333366</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>Search Line Numbers Matched</string>
+      <key>scope</key>
+      <string>constant.numeric.line-number.match.find-in-files</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#333333</string>
+      </dict>
+    </dict>
+
+    <!-- Linter -->
+    <dict>
+      <key>name</key>
+      <string>SublimeLinter Error Outline</string>
+      <key>scope</key>
+      <string>sublimelinter.outline.illegal</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#FF000066</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>SublimeLinter Warning Outline</string>
+      <key>scope</key>
+      <string>sublimelinter.outline.warning</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#FFAA33</string>
+      </dict>
+    </dict>
+
+  </array>
+</dict>
+</plist>

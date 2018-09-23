@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[(X'\Omega^{-1}X)${1:^{-1\}}]]></content>
+    <tabTrigger>xox</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Omega</description>
+</snippet>
+
+
+

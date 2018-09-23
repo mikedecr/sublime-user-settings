@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+start.time <- proc.time()
+${1:proc.time()}$0
+]]></content>
+    <tabTrigger>time</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

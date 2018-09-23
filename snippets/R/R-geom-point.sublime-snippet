@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+geom_point($0)
+]]></content>
+    <tabTrigger>gp</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

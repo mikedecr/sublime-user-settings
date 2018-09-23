@@ -1,0 +1,9 @@
+[
+ { "command": "expand_selection_to_paragraph" },
+ { "command": "send_code" },
+ { "command": "move", 
+     "args": { "by": "subwords", "forward": true}
+ }
+
+]
+

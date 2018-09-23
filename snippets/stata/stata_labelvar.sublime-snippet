@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+label variable ${1:var} "${2:label}"
+]]></content>
+	<tabTrigger>lv</tabTrigger>
+	<scope>source.stata</scope>
+</snippet>
+
+

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[\Omega^{-1}]]></content>
+    <tabTrigger>omi</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Omega</description>
+</snippet>
+
+
+

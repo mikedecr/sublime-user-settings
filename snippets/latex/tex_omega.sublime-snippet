@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[\Omega]]></content>
+    <tabTrigger>om</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>Omega</description>
+</snippet>
+
+
+

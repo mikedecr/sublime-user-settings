@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[\sum(x_i - \bar{x})${1:^2}]]></content>
+    <tabTrigger>ssxx</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>sum of squares</description>
+</snippet>
+
+
+

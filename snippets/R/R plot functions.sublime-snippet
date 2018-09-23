@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+source("/Users/michaeldecrescenzo/Box Sync/R learning/Custom/ci plotting.r")$0
+]]></content>
+    <tabTrigger>plotting</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

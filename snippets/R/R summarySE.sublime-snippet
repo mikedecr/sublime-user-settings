@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+summarySE(${1:data}, measurevar="$2", groupvars=c("$3", "$4"))
+]]></content>
+    <tabTrigger>summarySE</tabTrigger>
+    <scope>source.r</scope>
+    <description>WHAT DOES IT DOOOOOOOOOOOOOOOOOOOOOOOOOOOO</description>
+</snippet>

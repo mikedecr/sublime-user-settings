@@ -1,0 +1,32 @@
+<snippet>
+ <content><![CDATA[
+${1:library("colorout")
+setOutputColors256(normal = 245,
+                   # yellow
+                   negnum = 136,
+                   zero = 136,
+                   number = 136,
+                   # green
+                   date = 64,
+                   # cyan
+                   string = 37,
+                   stderror = 37,
+                   # magenta
+                   const = 125,
+                   infinite = 125,
+                   # blue
+                   false = 33,
+                   true = 33,
+                   # orange
+                   warn = 166,
+                   # red
+                   error = 160, 
+                   verbose = TRUE,
+                   zero.limit = NA)}
+$0]]></content>
+ <tabTrigger>colors</tabTrigger>
+ <scope>source.r</scope>
+</snippet>
+
+
+

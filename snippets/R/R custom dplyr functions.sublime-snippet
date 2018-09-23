@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+# convenience dplyr functions
+source("/Users/michaeldecrescenzo/Box Sync/R learning/Custom/dplyr easy functions.R")$0
+]]></content>
+    <tabTrigger>dplyr</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

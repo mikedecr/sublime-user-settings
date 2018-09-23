@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[ciplot ${1:var}, by($2)]]></content>
+	<tabTrigger>ci</tabTrigger>
+	<scope>source.stata</scope>
+</snippet>
+
+
+

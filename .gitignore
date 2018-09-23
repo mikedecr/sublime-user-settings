@@ -1,0 +1,16 @@
+.DS_Store
+.SublimeREPLHistory/
+Package Control.cache
+Package Control.last-run
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
+SchemrFavorites.sublime-settings
+SolarizedToggle.sublime-settings
+TextPastryHistory.sublime-settings
+
+
+# https://forum.sublimetext.com/t/generating-oscrypto-ca-bundle-crt-after-mac-os-install-and-security/23020
+oscrypto-ca-bundle.crt
+
+# ??
+Projects

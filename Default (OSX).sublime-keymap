@@ -1,0 +1,831 @@
+[
+
+// General?
+
+// slightly different behavior for "Add Line" 
+// ( aka add line below this line )
+// { "keys": ["alt+enter"], 
+// 	"command": "run_macro_file", 
+// 	"args": {"file": "Packages/User/macros/push to next line.hidden-sublime-macro"} ,
+// },
+
+
+// { "keys": ["super+ctrl+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+
+
+// { "keys": ["ctrl+enter"], 
+// 	"command": "run_macro_file", 
+// 	"args": {"file": "Packages/User/macros/blank new line.hidden-sublime-macro"} ,
+// },
+
+
+// movement
+{
+    "keys": ["alt+up"], 
+    "command": "run_macro_file", 
+    "args": { "file": "Packages/User/macros/skip-up-block.hidden-sublime-macro" }
+},
+{
+    "keys": ["alt+down"], "command": "move",
+    "args": {"by": "stops", "empty_line": true, "forward": true}
+},
+
+
+// context menu?
+{ "keys": ["shift+ctrl+c"], "command": "context_menu" },
+
+// terminal
+{ "keys": ["super+ctrl+t"], "command": "terminal_view_open" },
+
+
+
+// underscore
+// {
+// 	"keys": ["ctrl+space"],
+// 	"command": "insert_snippet",
+// 	"args": {"contents": "_$0"}
+// },
+
+// replacing original ctrl+space bind
+// { "keys": ["ctrl+alt+space"], "command": "auto_complete" },
+
+
+// push space! 
+{
+ "keys": ["ctrl+shift+space"],
+ "command": "insert_snippet",
+ "args": {"contents": "$0 "}
+},
+
+
+
+
+// title case
+{
+	"keys": ["super+k", "super+t"],
+	"command": "title_case"
+},
+
+
+// Select text between brackets
+{ "keys": ["super+shift+9"], "command": "expand_selection", "args": {"to": "brackets"} },
+
+// delete right to left
+// like fn+backspace but easier 
+{ "keys": ["shift+backspace"], "command": "right_delete"},
+
+
+
+
+
+
+// ------ SUBWORDS
+
+// delete by subwords
+{ "keys": ["ctrl+alt+backspace"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/delete-subword.sublime-macro"} },
+
+// select by subword
+// { "keys": ["alt+shift+left"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+//  { "keys": ["alt+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+
+
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+//R THINGS
+
+// tilde
+ {
+  "keys":["shift+alt+space"],
+  "context":
+  [
+   {"key": "selector",
+   "operator": "equal",
+   "operand": "source.r"}
+  ],
+  "command": "insert_snippet",
+  "args": {"contents": "~ "}
+ },
+
+// medium comment
+{
+ "keys": ["ctrl+/"],
+ "context": [ { "key": "selector", 
+                "operator": "equal", 
+                "operand": "source.r" } ],
+ "command": "insert_snippet",
+ "args": {"contents": "# --- $1 -----------------------\n$0"}
+},
+
+// big comment
+{
+ "keys": ["ctrl+super+/"],
+ "context": [ { "key": "selector", 
+                "operator": "equal", 
+                "operand": "source.r" } ],
+ "command": "insert_snippet",
+ "args": {"contents": "# ----------------------------------------------------\n#   $1\n# ----------------------------------------------------\n$0"}
+},
+
+
+// execute paragraph
+{
+  "keys":["ctrl+r"],
+  "context":
+  [
+   {"key": "selector",
+   "operator": "equal",
+   "operand": "source.r"}
+  ],
+  "command": "run_macro_file",
+  "args": { "file": "Packages/User/macros/send-paragraph.hidden-sublime-macro" }
+ },
+
+// Easily add assignment operator with [ Cmd + shift + , ]
+	{
+		"keys":["super+shift+,"],
+		"context":
+		[
+			{"key": "selector",
+			"operator": "equal",
+			"operand": "source.r"}
+		],
+		"command": "insert_snippet",
+		"args": {"contents": "<- $0"}
+	},
+
+
+// Easily add %in% operator
+	{
+		"keys":["ctrl+n"],
+		"context":
+		[
+			{"key": "selector",
+			"operator": "equal",
+			"operand": "source.r"}
+		],
+		"command": "insert_snippet",
+		"args": {"contents": "%in% $0"}
+	},
+
+// Easily add modulo
+	{
+		"keys":["alt+shift+m"],
+		"context":
+		[
+			{"key": "selector",
+			"operator": "equal",
+			"operand": "source.r"}
+		],
+		"command": "insert_snippet",
+		"args": {"contents": "%% $0"}
+	},
+
+
+// LaTeX non-breaking space 
+	{
+		"keys":["shift+alt+space"],
+		"context":
+		[
+			{"key": "selector",
+			"operator": "equal",
+			"operand": "text.tex.latex"}
+		],
+		"command": "insert_snippet",
+		"args": {"contents": "~ "}
+	},
+
+
+// comment-aware enter
+	{
+	    "keys": ["ctrl+c", "ctrl+enter"],
+		  "context":
+		  [
+		  	{"key": "selector",
+		  	"operator": "equal",
+		  	"operand": "source.r"}
+		  ],
+	    "command": "insert_snippet",
+	    "args": {"contents": "\n# $0"}
+	},
+
+
+// snippet to create pipe
+	{
+		"keys":["super+."],
+		"context":
+		[
+			{"key": "selector",
+			"operator": "equal",
+			"operand": "source.r"}
+		],
+		"command": "insert_snippet",
+		"args": {"contents": "%>%$0"}
+	},
+
+// snippet to create pipe with return
+	{
+		"keys":["super+shift+."],
+		"context":
+		[
+			{"key": "selector",
+			"operator": "equal",
+			"operand": "source.r"}
+		],
+		"command": "insert_snippet",
+		"args": {"contents": "%>%\n"}
+	},
+
+
+// snippet to create exposition pipe
+	{
+		"keys":["super+k", "super+4"],
+		"context":
+		[
+			{"key": "selector",
+			"operator": "equal",
+			"operand": "source.r"}
+		],
+		"command": "insert_snippet",
+		"args": {"contents": "%\\$%$0"}
+	},
+
+
+
+
+// // snippet to create compound-assignment pipe
+// 	{
+// 		"keys":["super+k", "super+,"],
+// 		"context":
+// 		[
+// 			{"key": "selector",
+// 			"operator": "equal",
+// 			"operand": "source.r"}
+// 		],
+// 		"command": "insert_snippet",
+// 		"args": {"contents": "%<>%$0"}
+// 	},
+
+
+
+// // snippet to create tree operator
+// 	{
+// 		"keys":["super+k", "super+t"],
+// 		"context":
+// 		[
+// 			{"key": "selector",
+// 			"operator": "equal",
+// 			"operand": "source.r"}
+// 		],
+// 		"command": "insert_snippet",
+// 		"args": {"contents": "%T>%$0"}
+// 	},
+
+
+
+
+
+
+//delete the assignment operator with just one click, not two
+	{
+		"keys": ["backspace"],
+		"context":
+		[
+			{ "key": "selector",
+				"operator": "equal",
+				"operand": "source.r" },
+			{ "key": "selection_empty",
+				"operator": "equal",
+				"operand": true,
+				"match_all": true },
+			{ "key": "preceding_text",
+				"operator": "regex_contains",
+				"operand": "<-$",
+				"match_all": true }
+		],
+		"command": "run_macro_file",
+		"args": { "file": "Packages/User/macros/Delete Two Left.hidden-sublime-macro" }
+	},
+
+	//delete the modulo operator with just one click, not two
+	{
+		"keys": ["backspace"],
+		"context":
+		[
+			{ "key": "selector",
+				"operator": "equal",
+				"operand": "source.r" },
+			{ "key": "selection_empty",
+				"operator": "equal",
+				"operand": true,
+				"match_all": true },
+			{ "key": "preceding_text",
+				"operator": "regex_contains",
+				"operand": "%%$",
+				"match_all": true }
+		],
+		"command": "run_macro_file",
+		"args": { "file": "Packages/User/macros/Delete Two Left.hidden-sublime-macro" }
+	},
+
+
+
+//delete the pipe operator with just one click, not three
+	{
+		"keys": ["backspace"],
+		"context":
+		[
+			{ "key": "selector",
+				"operator": "equal",
+				"operand": "source.r" },
+			{ "key": "selection_empty",
+				"operator": "equal",
+				"operand": true,
+				"match_all": true },
+			{ "key": "preceding_text",
+				"operator": "regex_contains",
+				"operand": "%>%$",
+				"match_all": true }
+		],
+		"command": "run_macro_file",
+		"args": { "file": "Packages/User/macros/Delete Three Left.hidden-sublime-macro" }
+	},
+
+ //delete the pipe operator with just one click, not three
+ {
+  "keys": ["backspace"],
+  "context":
+  [
+   { "key": "selector",
+    "operator": "equal",
+    "operand": "source.r" },
+   { "key": "selection_empty",
+    "operator": "equal",
+    "operand": true,
+    "match_all": true },
+   { "key": "preceding_text",
+    "operator": "regex_contains",
+    "operand": "%in%$",
+    "match_all": true }
+  ],
+  "command": "run_macro_file",
+  "args": { "file": "Packages/User/macros/Delete Four Left.hidden-sublime-macro" }
+ },
+
+
+//delete the exposition pipe operator with just one click, not three
+	{
+		"keys": ["backspace"],
+		"context":
+		[
+			{ "key": "selector",
+				"operator": "equal",
+				"operand": "source.r" },
+			{ "key": "selection_empty",
+				"operator": "equal",
+				"operand": true,
+				"match_all": true },
+			{ "key": "preceding_text",
+				"operator": "regex_contains",
+				"operand": "%\\$%$",
+				"match_all": true }
+		],
+		"command": "run_macro_file",
+		"args": { "file": "Packages/User/macros/Delete Three Left.hidden-sublime-macro" }
+	},
+
+
+
+//delete the compound assignment pipe operator with just one click, not four
+	{
+		"keys": ["backspace"],
+		"context":
+		[
+			{ "key": "selector",
+				"operator": "equal",
+				"operand": "source.r" },
+			{ "key": "selection_empty",
+				"operator": "equal",
+				"operand": true,
+				"match_all": true },
+			{ "key": "preceding_text",
+				"operator": "regex_contains",
+				"operand": "%<>%$",
+				"match_all": true }
+		],
+		"command": "run_macro_file",
+		"args": { "file": "Packages/User/macros/Delete Four Left.hidden-sublime-macro" }
+	},
+
+
+
+//delete the compound assignment pipe operator with just one click, not four
+	{
+		"keys": ["backspace"],
+		"context":
+		[
+			{ "key": "selector",
+				"operator": "equal",
+				"operand": "source.r" },
+			{ "key": "selection_empty",
+				"operator": "equal",
+				"operand": true,
+				"match_all": true },
+			{ "key": "preceding_text",
+				"operator": "regex_contains",
+				"operand": "%T>%$",
+				"match_all": true }
+		],
+		"command": "run_macro_file",
+		"args": { "file": "Packages/User/macros/Delete Four Left.hidden-sublime-macro" }
+	},
+
+
+
+// resolve this::
+
+// ctrl+enter for bumping a line down
+ {
+  "keys": ["ctrl+enter"],
+  "command": "insert_snippet",
+  "args": {"contents": "$0\n"}
+
+ },
+
+ // // alt+enter for bumping a line down
+	// {
+	// 	"keys": ["alt+enter"],
+	// 	"context":
+	// 	[
+	// 		{ "key": "selector", "operator": "equal", "operand": "source.r" }
+	// 	],
+	// 	"command": "insert_snippet",
+	// 	"args": {"contents": "$0\n"}
+
+	// },
+
+
+// auto-pair `backticks` 
+{ "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$1`$0"}, "context":
+     [
+         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+         { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+         { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|$)", "match_all": true },
+         { "key": "preceding_text", "operator": "not_regex_contains", "operand": "['a-zA-Z0-9_`]$", "match_all": true },
+         { "key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.single", "match_all": true },
+         { "key": "selector", "operator": "equal", "operand": "source.r", "match_all": true }
+     ]
+    },
+    { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`${1:$SELECTION}`$0"}, "context":
+        [
+            { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true },
+            { "key": "selector", "operator": "equal", "operand": "source.r", "match_all": true }
+        ]
+    },
+    { "keys": ["`"], "command": "run_macro_file", "args": {"file": "Packages/MarkdownEditing/macros/Skip Closing Character.sublime-macro"}, "context":
+     [
+         { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+         { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true },
+         { "key": "selector", "operator": "equal", "operand": "source.r", "match_all": true }
+     ]
+    },
+
+
+ { "keys": ["super+k", "super+f"], 
+   "command": "insert_snippet", "args": {"contents": "$1($SELECTION)$0"}, "context":
+        [
+            { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true },
+            { "key": "selector", "operator": "equal", "operand": "source.r", "match_all": true }
+        ]
+    },
+
+
+
+
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+//LATEX THINGS
+
+// LaTeX non-breaking space 
+ {
+  "keys":["shift+alt+space"],
+  "context":
+  [
+   {"key": "selector",
+   "operator": "equal",
+   "operand": "text.tex.latex"}
+  ],
+  "command": "insert_snippet",
+  "args": {"contents": "~ "}
+ },
+
+
+
+
+// math space
+	{
+	    "keys": ["ctrl+space"],
+		  "context":
+		  [
+		  	{"key": "selector",
+		  	"operator": "equal",
+		  	"operand": "text.tex.latex"}
+		  ],
+	    "command": "insert_snippet",
+	    "args": {"contents": " \\, $0"}
+	},
+
+
+
+//Don't auto-pair single quotes
+	{
+		"keys":["'" ],
+		"context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }
+		],
+		"command":"insert_snippet",
+		"args": {"contents": "'"  }
+	},
+
+// Auto-pair double quotes
+	// {
+	// 	"keys": ["\""],
+	// 	"context":
+	// 	[
+	// 		{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" },
+	// 		{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+	// 		{ "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true },
+	// 		{ "key": "following_text", "operator": "regex_contains", "operand": "^''", "match_all": true }
+	// 	],
+	// 	"command": "insert_snippet",
+	// 	"args": { "contents": "``${1:$SELECTION}''$0" }
+	// },
+	// {
+	// 	"keys": ["\""],
+	// 	"context":
+	// 	[
+	// 		{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" },
+	// 		{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+	// 		{ "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+	// 		{ "key": "eol_selector", "operator": "not_equal", "operand": "comment.line.percentage", "match_all": true },
+	// 	 	{ "key": "preceding_text", "operator": "regex_contains", "operand": "(^|[^\\w])$", "match_all": true }
+	// 	],
+	// 	"command": "insert_snippet",
+	// 	"args": { "contents": "``$1''$0" }
+	// },
+	// {
+	// 	"keys": ["\""],
+	// 	"context":
+	// 	[
+	// 		{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" },
+	// 		{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+	// 		{ "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+	// 		{ "key": "following_text", "operator": "regex_contains", "operand": "^''", "match_all": true }
+	// 	],
+	// 	"command": "run_macro_file",
+	// 	"args": { "file": "Packages/User/macros/Move Two Characters.hidden-sublime-macro" }
+	// },
+	// {
+	// 	"keys": ["\""],
+	// 	"context":
+	// 	[
+	// 		{ "key": "selector", "operator": "equal", "operand": "text.tex.latex string.quoted.double" },
+	// 		{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+	// 		{ "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+	// 		{ "key": "preceding_text", "operator": "regex_contains", "operand": "``$", "match_all": false },
+	// 		{ "key": "following_text", "operator": "regex_contains", "operand": "^''", "match_all": false }
+	// 	],
+	// 	"command": "insert_snippet",
+	// 	"args": { "contents": "''$0" }
+	// },
+	// {
+	// 	"keys": ["backspace"],
+	// 	"context":
+	// 	[
+	// 		{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" },
+	// 		{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+	// 		{ "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+	// 		{ "key": "preceding_text", "operator": "regex_contains", "operand": "``$", "match_all": true },
+	// 		{ "key": "following_text", "operator": "regex_contains", "operand": "^''", "match_all": true }
+	// 	],
+	// 	"command": "run_macro_file",
+	// 	"args": { "file": "Packages/User/macros/Delete Two Left Right.hidden-sublime-macro" }
+	// },
+
+
+
+// inline code
+{
+	"keys": ["super+l", "super+i"],
+	"context":
+	[
+		{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }
+	],
+	"command": "insert_snippet",
+	"args": { "contents": "\\lstinline+${1:$TM_SELECTED_TEXT}+$0" }
+},
+
+
+{
+ "keys": ["super+l", "super+t"],
+ "context":
+ [
+  { "key": "selector", "operator": "equal", "operand": "text.tex.latex" }
+ ],
+ "command": "insert_snippet",
+ "args": { "contents": "\\texttt{${1:$TM_SELECTED_TEXT}}$0" }
+},
+
+
+// Easy exponents
+{
+	"keys": ["^"],
+	"context":
+	[
+		{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }
+	],
+	"command": "insert_snippet",
+	"args": { "contents": "^{${1:$TM_SELECTED_TEXT}}$0" }
+},
+
+// Easy subscripts
+{
+	"keys": ["_"],
+	"context":
+	[
+		{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }
+	],
+	"command": "insert_snippet",
+	"args": { "contents": "_{${1:$TM_SELECTED_TEXT}}$0" }
+},
+
+// easy underscore
+{
+ "keys": ["_"],
+ "context":
+ [
+  { "key": "selector", "operator": "equal", "operand": "text.tex.latex - (string.other.math, meta.environment.math)" }
+ ],
+ "command": "insert_snippet",
+ "args": { "contents": "\\_$0" }
+},
+
+
+/* non-breaking spaces */
+	{
+		"keys": ["shift+alt+space"],
+		"context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }
+		],
+		"command": "insert",
+		"args": {"characters": "~"}
+	},
+
+// Math spaces
+	{
+		"keys": ["shift+alt+,"],
+		"context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }
+		],
+		"command": "insert",
+		"args": {"characters": "\\,"}
+	},
+
+
+ {"keys": ["super+l","super+r"],  
+  "context":  [
+   {"key": "selector", "operator": "equal", "operand": "text.tex.latex meta.environment.math"}],
+  "command": "insert_snippet", "args": { "contents": "\\mathrm{${1:$TM_SELECTED_TEXT}}$0" }},
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+//STATA THINGS
+
+
+// Shift+enter for inputting ///
+{
+	"keys": ["shift+enter"],
+	"context":
+	[
+		{ "key": "selector", "operator": "equal", "operand": "source.stata" }
+	],
+	"command": "insert_snippet",
+	"args": {"contents": " /// \n$0"}
+},
+
+
+
+
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+// MARKDOWN THINGS
+
+// non-breaking space
+
+// Rmd non-breaking space 
+ {
+  "keys":["shift+alt+space"],
+  "context":
+  [
+   {"key": "selector",
+   "operator": "equal",
+   "operand": "text.html.markdown"}
+  ],
+  "command": "insert_snippet",
+  "args": {"contents": "&nbsp;"}
+ },
+
+
+{ "keys": ["super+l","super+e"],
+	"context":
+		[
+			{"key": "selector",
+			"operator": "equal",
+			"operand": "text.html.markdown"}
+		],
+		"command": "insert_snippet",
+		"args": {
+			"contents":"*${1:$SELECTION}*"
+		}
+},
+
+{
+	"keys": ["super+l","super+b"],
+	"context":  [
+								{"key": "selector",
+								"operator": "equal",
+								"operand": "text.html.markdown"}
+							],
+	"command": "insert_snippet",
+	"args":
+		{"contents":"**${1:$SELECTION}**"}
+},
+
+
+
+{ "keys": ["super+l","super+t"],
+ "context":
+  [
+   {"key": "selector",
+   "operator": "equal",
+   "operand": "text.html.markdown"}
+  ],
+  "command": "insert_snippet",
+  "args": {
+   "contents":"`${1:$SELECTION}`"
+  }
+},
+
+
+{ "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$1`$0"}, "context":
+     [
+         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+         { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+         { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|$)", "match_all": true },
+         { "key": "preceding_text", "operator": "not_regex_contains", "operand": "['a-zA-Z0-9_`]$", "match_all": true },
+         { "key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.single", "match_all": true },
+         { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
+     ]
+    },
+    { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`${1:$SELECTION}`$0"}, "context":
+        [
+            { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true },
+            { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
+        ]
+    },
+    { "keys": ["`"], "command": "run_macro_file", "args": {"file": "Packages/MarkdownEditing/macros/Skip Closing Character.sublime-macro"}, "context":
+     [
+         { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+         { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true },
+         { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
+     ]
+    },
+
+
+////////////////////////////////////////////////
+////////////////////////////////////////////////
+// EVERNOTE THINGS
+{ "keys": ["super+e"], "command": "show_overlay", "context": [{"key": "evernote_note"}], "args": {"overlay": "command_palette", "text": "Evernote: "} },
+{ "keys": ["ctrl+e", "ctrl+s"], "command": "send_to_evernote" },
+{ "keys": ["ctrl+e", "ctrl+o"], "command": "open_evernote_note" },
+{ "keys": ["ctrl+e", "ctrl+u"], "command": "save_evernote_note" }
+
+// { "keys": ["super+l", "ctrl+]"],
+// 	"command": "expand_selection",
+// 	"args": {"to": "line"}
+// 	}
+
+]

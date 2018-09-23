@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${0:library(rms)
+${1:object} <-ols(${2:y} ~ ${3:formula}, x=T, y=T)
+$1}
+]]></content>
+    <tabTrigger>ols</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

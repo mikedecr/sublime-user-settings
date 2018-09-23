@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\multicolumn{${1:# of cols}}{${2:column alignment}}{${3:cell content}} $0
+    ]]></content>
+    <!-- Trigger the snippet -->
+    <tabTrigger>mc</tabTrigger>
+    <!-- Where the snippet will trigger -->
+    <scope>text.tex.latex</scope>
+</snippet>

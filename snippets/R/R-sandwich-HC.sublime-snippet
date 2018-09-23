@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+library(sandwich) $3
+$1.robse <- sqrt(diag(vcovHC(${1:model}, type = "HC$2")))
+$1.robse
+]]></content>
+    <tabTrigger>hc</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

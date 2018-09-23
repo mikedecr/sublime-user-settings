@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+str_split(${1:string_vector}, pattern = "${2:[.]}",
+                                simplify = TRUE)[,${3:1}]
+]]></content>
+    <tabTrigger>split</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

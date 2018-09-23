@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+\begin{table}[${1:Hhtb}]
+  \begin{center}
+  \caption{${2:caption here}}
+  \label{${3:tab:tablename}}
+ 	\begin{tabular}{${4:l|cc}}
+
+   	\toprule
+   	$0
+
+   	\bottomrule
+
+ 	\end{tabular}
+  \end{center}
+\end{table}
+]]></content>
+	<tabTrigger>mtab</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>

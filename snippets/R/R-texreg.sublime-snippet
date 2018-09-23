@@ -1,0 +1,18 @@
+<snippet>
+ <content><![CDATA[
+texreg(${1:mod_list},
+       file = here(${2:dir}, "${3:file}.tex"),
+       caption = $4,
+       label = "tab:$3",
+       booktabs = TRUE, dcolumn = TRUE, # sideways = TRUE, 
+       use.packages = FALSE
+       # , # no.margin = TRUE,
+       # custom.model.names = mod_labels,
+       # custom.coef.names = coef_names,
+       # custom.note = "\$^{*} p < .05\$, \$^{**} p < .01\$, \$^{***} p < .001\$."
+       )
+]]></content>
+ <tabTrigger>texreg</tabTrigger>
+ <scope>source.r</scope>
+</snippet>
+

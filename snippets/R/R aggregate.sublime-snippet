@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aggregate(${1:var} ~ ${2:groups}, data=${3:data}, function($1) ${4:functions}($1))
+]]></content>
+    <tabTrigger>ag</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

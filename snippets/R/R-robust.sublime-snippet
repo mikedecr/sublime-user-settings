@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+library(rms) $4
+$1 <- ols($2 ~ $3, x=TRUE)
+$1.rse <- robcov($1)
+$1
+$1.rse
+]]></content>
+    <tabTrigger>robust</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

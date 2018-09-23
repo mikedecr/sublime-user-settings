@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+fx(model=$2, design=$3, predictor=$3\$$4${5:, alpha=0.05, reps=10000, vc=vcov($2)})
+]]></content>
+    <tabTrigger>fx</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+str_detect($1, "$2")$0
+]]></content>
+    <tabTrigger>sd</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

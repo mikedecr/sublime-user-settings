@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+plot($1,which=1)$2
+]]></content>
+    <tabTrigger>rvf</tabTrigger>
+    <scope>source.r</scope>
+    <description>WHAT DOES IT DOOOOOOOOOOOOOOOOOOOOOOOOOOOO</description>
+</snippet>

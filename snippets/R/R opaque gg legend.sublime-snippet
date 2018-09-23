@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[guides(color = guide_legend(override.aes = list(alpha=1)))]]></content>
+    <tabTrigger>opaque</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

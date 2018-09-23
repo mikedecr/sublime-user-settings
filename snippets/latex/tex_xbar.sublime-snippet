@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[\bar{x}]]></content>
+    <tabTrigger>xbar</tabTrigger>
+    <scope>text.tex.latex</scope>
+    <description>xbar</description>
+</snippet>
+
+
+
