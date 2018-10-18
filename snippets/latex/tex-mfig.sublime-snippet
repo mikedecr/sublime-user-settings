@@ -2,8 +2,8 @@
 	<content><![CDATA[
 \begin{figure}[${1:hbt}]
 	\centering
-	\caption{${4:Caption here}}
-	\label{${5:fig:figure1}}
+	\caption[${5:Short caption}]{${6:Full caption}}
+	\label{fig:${4:label}}
 	\includegraphics[width = $2\textwidth]{$3}
 \end{figure}
 ]]></content>

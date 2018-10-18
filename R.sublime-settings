@@ -1,0 +1,11 @@
+// These settings override both User and Default settings for the R syntax
+{
+ // "extensions": [
+ //   "r", 
+ //   ".Rprofile", 
+ //   "R", 
+ //   "bugs", 
+ //   "bug"
+ //   ],
+ // "word_separators": "/\\()\"'-:,;<>~!@#$%^&*|+=[]{}`~?"
+}

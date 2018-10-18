@@ -4,14 +4,14 @@
 	// 	"color_scheme": "Packages/User/solarized-smart-light.tmTheme",
 
 	"draw_centered" : true,
-	"extensions":
-	[
-		"r",
-		".Rprofile",
-		"R",
-		"bugs",
-		"bug"
-	],
+	// "extensions":
+	// [
+		// "r",
+		// ".Rprofile",
+		// "R",
+		// "bugs",
+		// "bug"
+	// ],
 	// "font_face": "Droid Sans Mono",
 	// "font_options": ["standardaliasing"],
 	"highlight_line": false,

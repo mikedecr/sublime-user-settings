@@ -113,7 +113,7 @@
                 "operator": "equal", 
                 "operand": "source.r" } ],
  "command": "insert_snippet",
- "args": {"contents": "# --- $1 -----------------------\n$0"}
+ "args": {"contents": "# ---- $1 -----------------------\n$0"}
 },
 
 // big comment
@@ -180,19 +180,6 @@
 		"args": {"contents": "%% $0"}
 	},
 
-
-// LaTeX non-breaking space 
-	{
-		"keys":["shift+alt+space"],
-		"context":
-		[
-			{"key": "selector",
-			"operator": "equal",
-			"operand": "text.tex.latex"}
-		],
-		"command": "insert_snippet",
-		"args": {"contents": "~ "}
-	},
 
 
 // comment-aware enter
@@ -507,21 +494,20 @@
 ////////////////////////////////////////////////
 //LATEX THINGS
 
-// LaTeX non-breaking space 
- {
-  "keys":["shift+alt+space"],
-  "context":
-  [
-   {"key": "selector",
-   "operator": "equal",
-   "operand": "text.tex.latex"}
-  ],
-  "command": "insert_snippet",
-  "args": {"contents": "~ "}
- },
+// no-op
+  {
+    "keys": ["ctrl+b"],
+    // execute a command named noop, i.e. don't execute a command
+    "command": "noop",
+    "context": [
+      // ensure we are inside a latex file
+      { "key": "selector", "operand": "text.tex.latex" },
+      // only disable the build if the documentclass is missing/empty
+      { "key": "latextools.documentclass", "operand": "" },
+    ]
+  },
 
-
-
+  
 
 // math space
 	{
@@ -736,7 +722,7 @@
 
 // Rmd non-breaking space 
  {
-  "keys":["shift+alt+space"],
+  "keys":["ctrl+alt+n"],
   "context":
   [
    {"key": "selector",

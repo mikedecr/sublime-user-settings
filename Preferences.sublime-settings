@@ -98,6 +98,8 @@
 	[
 		"Highlight Dodgy Chars",
 		"Markdown",
+		"R-Box",
+		"SublimeREPL",
 		"Vintage"
 	],
 	"ignored_words":
@@ -113,7 +115,7 @@
 	[
 		"LaTeXTools"
 	],
-	"line_padding_bottom": 1,
+	"line_padding_bottom": 0,
 	"line_padding_top": 1,
 	"linecomments_shift_enter": true,
 	"mdpopups.sublime_user_lang_map": null,

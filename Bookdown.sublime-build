@@ -1,0 +1,5 @@
+{      
+  "cmd": ["Rscript", "-e", "bookdown::render_book('index.Rmd', 'bookdown::pdf_book'); system('afplay /System/Library/Sounds/Pop.aiff; afplay /System/Library/Sounds/Pop.aiff'); # system('open ./_book/*.pdf')"],
+  "selector": "text.html.markdown.rmarkdown"
+}
+// redundantly opens PDF

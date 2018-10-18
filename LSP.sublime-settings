@@ -1,0 +1,9 @@
+{
+	"clients":
+	{
+		"rlang":
+		{
+			"enabled": false
+		}
+	}
+}

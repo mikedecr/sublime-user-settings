@@ -2,8 +2,8 @@
   <content><![CDATA[
 ---
 title: $1
-tags: $2
-notebook: $3
+author: ${2: Michael G. DeCrescenzo}
+date: "`r Sys.Date()`"
 ---
 
 $0
