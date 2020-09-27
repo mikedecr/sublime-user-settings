@@ -1,5 +1,9 @@
 {
-	"prog": "terminal",
+	"md":
+	{
+		"prog": "iterm"
+	},
+	"prog": "iterm",
 	"python":
 	{
 		"bracketed_paste_mode": true,
@@ -7,6 +11,11 @@
 	},
 	"r":
 	{
-		"prog": "terminal"
+		"prog": "iterm"
+	},
+	"rmd":
+	{
+		"bracketed_paste_mode": false,
+		"prog": "iterm"
 	}
 }

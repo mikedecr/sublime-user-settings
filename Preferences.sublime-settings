@@ -66,45 +66,55 @@
 		"contestation",
 		"incumbent's",
 		"Stephanopoulos",
-		""
+		"",
+		"estimand",
+		"imposter",
+		"ignorability",
+		"counterfactual",
+		"unconfoundedness",
+		"frequentist",
+		"demediation",
+		"demediating",
+		"Instagram",
+		"estimands"
 	],
-	"always_show_minimap_viewport": true,
+	"always_show_minimap_viewport": false,
 	"auto_complete_commit_on_tab": true,
 	"auto_find_in_selection": true,
+	"auto_indent": true,
+	"block_caret": true,
 	"bold_folder_labels": true,
-	"caret_extra_bottom": 1.5,
-	"caret_extra_top": 1.5,
-	"caret_extra_width": 2,
-	"caret_style": "phase",
-	"close_windows_when_empty": true,
+	"caret_style": "smooth",
+	"close_windows_when_empty": false,
 	"color_scheme": "Packages/User/color-schemes/solarized-mgd-dark.tmTheme",
 	"copy_with_empty_selection": true,
 	"detect_indentation": false,
 	"drag_text": false,
-	"draw_centered": true,
-	"draw_minimap_border": true,
+	"draw_centered": false,
+	"draw_minimap_border": false,
 	"draw_white_space": false,
 	"fade_fold_buttons": false,
 	"find_selected_text": true,
-	"font_face": "Liga Roboto Mono",
+	"font_face": "Code New Roman",
 	"font_options":
 	[
 		"gray_antialias"
 	],
-	"font_size": 18,
+	"font_size": 23,
 	"highlight_line": false,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Highlight Dodgy Chars",
 		"Markdown",
-		"R-Box",
 		"SublimeREPL",
 		"Vintage"
 	],
 	"ignored_words":
 	[
-		""
+		"",
+		"hipsterism",
+		"rubin"
 	],
 	"indent_guide_options":
 	[
@@ -116,8 +126,9 @@
 		"LaTeXTools"
 	],
 	"line_padding_bottom": 0,
-	"line_padding_top": 1,
+	"line_padding_top": 0,
 	"linecomments_shift_enter": true,
+	"mde.list_indent_auto_switch_bullet": false,
 	"mdpopups.sublime_user_lang_map": null,
 	"mdpopups.use_sublime_highlighter": null,
 	"open_files_in_new_window": false,
@@ -130,7 +141,7 @@
 	"scroll_past_end": true,
 	"shift_tab_unindent": true,
 	"show_tab_close_buttons": false,
-	"tab_size": 1,
+	"tab_size": 2,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,

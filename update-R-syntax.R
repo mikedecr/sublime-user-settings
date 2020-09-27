@@ -1,44 +1,78 @@
+# Rscript "/Users/michaeldecrescenzo/Dropbox/Sublime/User/update-R-syntax.R" --no-save 
+
+# R
+# source("/Users/michaeldecrescenzo/Dropbox/Sublime/User/update-R-syntax.R", echo = TRUE)
+
 setwd("/Users/michaeldecrescenzo/Library/Application Support/Sublime Text 3/Packages/R")
 
 
 library(stringr)
 
 packages <- c(
+  # Base
     "base",
-    "purrr",
     "graphics",
     "grDevices",
     "methods",
     "stats",
     "utils",
+    "tools",
+  # data manipulation
+    "readxl",
+    "purrr",
     "tidyverse",
     "magrittr",
-    "ggplot2",
     "forcats",
     "stringr",
     "tidyr",
+    "tidyselect",
     "skimr",
     "dplyr",
     "tibble",
-    "rstan",
-    "rjags",
-    "ggridges",
-    "doParallel",
-    "broom",
-    "xtable",
-    "stargazer",
-    "ggmcmc",
-    "ggjoy",
+    # "doParallel",
+    "labelled",
+    "lubridate",
     "plyr",
     "haven",
-    "caTools",
+    "boxr",
+    "readr",
+    "curl",
+    "broom",
+ # modeling
+    "tidybayes", 
+    "bayesplot",
+    "rstan",
+    # "rjags",
+    "ggmcmc",
+    "tidymodels",
+    "parsnip", 
+    "dials", # whatever that does
+    "infer", # whatever that does
+    "recipes", # whatever that does
+    "rsample", # whatever that does
+    "tune", # whatever that does
+    "workflows", # whatever that does
+    "yardstick", # whatever that does
+  # graphics
+    "ggplot2",
+    "ggridges",
+    # "caTools",
     "viridis",
     "viridisLite",
     "extrafont",
-    "boxr",
     "latex2exp",
-    "readr",
-    "curl"
+    "ggforce",
+    "dagitty",
+    "ggdag",
+  # outputting
+    "xtable",
+    # "stargazer",
+    "knitr",
+    "rmarkdown",
+    "bookdown",
+    "blogdown",
+    "scales",
+    "english"
 )
 
 get_functions <- function(pkg) {
