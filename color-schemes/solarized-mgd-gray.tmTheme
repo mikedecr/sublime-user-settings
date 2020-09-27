@@ -24,10 +24,10 @@
         <key>lineHighlight</key>
         <string>#eee8d5</string>
         <key>selection</key>
-        <!-- <string>#fdf6e3</string> -->
+        <!-- <string>#e2e2e2</string> -->
         <string>#FFEE66</string>
         <key>selectionBorder</key>
-        <string>#FFEE6600</string>
+        <string>#268bd2</string>
 
         <key>popupCss</key>
         <string><![CDATA[ html { background-color: var(--background); color: var(--foreground); } a { color: #2aa198; line-height: 20px; } ]]></string>
@@ -187,7 +187,7 @@
         <key>foreground</key>
         <string>#657b83</string>
         <!-- <key>background</key>
-        <string>#fdf6e3</string> -->
+        <string>#e2e2e2</string> -->
 
       </dict>
     </dict>
@@ -466,7 +466,7 @@
         <key>background</key>
         <string>#F3F3F3</string>
         <key>foreground</key>
-        <string>#fdf6e3</string>
+        <string>#e2e2e2</string>
       </dict>
     </dict>
     <dict>
@@ -479,7 +479,7 @@
         <key>background</key>
         <string>#dc322f</string>
         <key>foreground</key>
-        <string>#fdf6e3</string>
+        <string>#e2e2e2</string>
       </dict>
     </dict>
     <dict>
@@ -492,7 +492,7 @@
         <key>background</key>
         <string>#b58900</string>
         <key>foreground</key>
-        <string>#fdf6e3</string>
+        <string>#e2e2e2</string>
       </dict>
     </dict>
     <dict>
@@ -505,7 +505,7 @@
         <key>background</key>
         <string>#859900</string>
         <key>foreground</key>
-        <string>#fdf6e3</string>
+        <string>#e2e2e2</string>
       </dict>
     </dict>
     <dict>
@@ -516,7 +516,7 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#fdf6e3</string>
+        <string>#e2e2e2</string>
       </dict>
     </dict>
     <dict>

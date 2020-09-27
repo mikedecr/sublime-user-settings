@@ -17,6 +17,8 @@
         <string>#fdf6e3</string>
         <key>caret</key>
         <string>#d33682</string>
+        <key>block_caret</key>
+        <string>#ce0466</string>
         <key>foreground</key>
         <string>#657b83</string>
         <key>invisibles</key>
