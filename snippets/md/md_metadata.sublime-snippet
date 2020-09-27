@@ -3,7 +3,8 @@
 ---
 title: $1
 author: ${2: Michael G. DeCrescenzo}
-date: "`r Sys.Date()`"
+date: | 
+  `r format(Sys.time(), '%B %d, %Y')` 
 ---
 
 $0

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+list(
+  itemcode = "$1", domain = "$2", 
+  libs = $3, cons = $4
+)$0]]></content>
+    <tabTrigger>il</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

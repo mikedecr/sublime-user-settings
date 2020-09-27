@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[tibble($0)]]></content>
-    <tabTrigger>df</tabTrigger>
+    <tabTrigger>tib</tabTrigger>
     <scope>source.r</scope>
     <description></description>
 </snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+```{block, include = knitr:::pandoc_to() == "latex"}
+$1
+```
+$0
+]]></content>
+  <tabTrigger>tex</tabTrigger>
+  <scope>text.html.markdown.multimarkdown, text.html.markdown</scope>
+</snippet>

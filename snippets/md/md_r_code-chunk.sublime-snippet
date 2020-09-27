@@ -1,5 +1,7 @@
 <snippet>
-  <content><![CDATA[_${1}_$0]]></content>
-  <tabTrigger>em</tabTrigger>
+  <content><![CDATA[```{r$1}
+$0
+```]]></content>
+  <tabTrigger>r</tabTrigger>
   <scope>text.html.markdown.multimarkdown, text.html.markdown</scope>
 </snippet>

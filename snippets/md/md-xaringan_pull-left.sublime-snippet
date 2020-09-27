@@ -1,8 +1,8 @@
 <snippet>
-  <content><![CDATA[```{r$1}
+  <content><![CDATA[
+.pull-left[
 $0
-
-```]]></content>
-  <tabTrigger>r</tabTrigger>
+]]]></content>
+  <tabTrigger>pl</tabTrigger>
   <scope>text.html.markdown.multimarkdown, text.html.markdown</scope>
 </snippet>

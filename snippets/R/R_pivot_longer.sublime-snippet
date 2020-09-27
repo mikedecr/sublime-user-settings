@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+pivot_longer(
+  cols = ${1:varlist}, 
+  names_to = "${2:keyname}",
+  values_to = "${3:dataname}"
+)
+]]></content>
+    <tabTrigger>pl</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

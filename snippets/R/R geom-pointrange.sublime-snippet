@@ -1,6 +1,9 @@
 <snippet>
     <content><![CDATA[
-geom_pointrange(aes(ymin = ${1:conf.low}, ymax = ${2:conf.high})$3)$0
+geom_pointrange(
+  aes(ymin = ${1:conf.low}, ymax = ${2:conf.high}),
+  ${3:position = position_dodge(width = -0.25)}$4
+)$0
 ]]></content>
     <tabTrigger>gpr</tabTrigger>
     <scope>source.r</scope>

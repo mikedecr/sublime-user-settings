@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+${1:compiled_mod} <- stan_model(
+  file = "${2:stan/path}.stan", 
+  verbose = TRUE
+)
+
+$0sampling(
+  object = $3, 
+  data = $4, 
+  iter = $5, 
+  chains = ${6:parallel::detectCores()}
+  # , thin = 1,
+  # , include = FALSE,
+  # pars = c()
+)
+]]></content>
+    <tabTrigger>stan</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

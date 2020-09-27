@@ -1,8 +1,11 @@
 <snippet>
     <content><![CDATA[
-gather(key = ${1:resulting label}, value = ${2:resulting cell}, ${0:varlist})
+pivot_wider(
+  names_from = "${1:keyname}",
+  values_from = "${2:valname}",
+)
 ]]></content>
-    <tabTrigger>gather</tabTrigger>
+    <tabTrigger>pw</tabTrigger>
     <scope>source.r</scope>
     <description></description>
 </snippet>

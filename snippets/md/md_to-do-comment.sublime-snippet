@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<!------- TO DO ---------
+- $0
+------------------------->
+]]></content>
+  <tabTrigger>todo</tabTrigger>
+  <scope>text.html.markdown.multimarkdown, text.html.markdown</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+get_meta(
+  data = $1,
+  poll_id = $2, firm = $3, date = $4,
+  caseid = $5, wtvar = $6, 
+  statevar = $7, districtvar = $8, zipvar = $9,
+  partyvar = $10, dcode = $11, rcode = $12, icode = $13,
+  items = list(
+    ${14:itemname} = $0
+  )
+)
+]]></content>
+    <tabTrigger>meta</tabTrigger>
+    <scope>source.r</scope>
+    <description></description>
+</snippet>
+

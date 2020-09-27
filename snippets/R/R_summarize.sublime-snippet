@@ -1,6 +1,8 @@
 <snippet>
     <content><![CDATA[
-summary($1)$2]]></content>
+summarize(
+  $1
+)$2]]></content>
     <tabTrigger>sum</tabTrigger>
     <scope>source.r</scope>
     <description></description>
