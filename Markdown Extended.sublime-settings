@@ -8,5 +8,6 @@
 	],
 	"highlight_line": false,
 	"spell_check": true,
-	"tab_size": 2
+  "mde.list_indent_auto_switch_bullet": false,
+	"tab_size": 4
 }

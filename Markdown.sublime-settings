@@ -33,13 +33,9 @@
 		"md026": ".,;:!",
 		"md029": "any"
 	},
-	"mde.list_indent_auto_switch_bullet": true,
+	"mde.list_indent_auto_switch_bullet": false,
 	"mde.list_indent_bullets":
-	[
-		"*",
-		"-",
-		"+"
-	],
+  	["-"],
 	"mde.match_header_hashes": false,
 	"rulers":
 	[

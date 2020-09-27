@@ -8,7 +8,7 @@
 	[
 		"stan"
 	],
- "draw_centered": true,
+  "draw_centered": true,
 	"highlight_line": false,
- "tab_size": 2
+  "tab_size": 2
 }

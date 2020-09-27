@@ -1,8 +1,8 @@
 {
 	"draw_centered": true,
 	"font_face": "Inconsolata",
-	"font_size": 22,
- "line_padding_bottom": 0,
+	"font_size": 25,
+  "line_padding_bottom": 0,
 	"highlight_line": false,
 	"spell_check": true,
 	"trim_trailing_white_space_on_save": false,

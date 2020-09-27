@@ -1,8 +1,6 @@
 // These settings override both User and Default settings for the BibLaTeX syntax
 {
  "draw_centered": true,
- "font_face": "Liga Inconsolata",
- "font_size": 21,
  "line_padding_bottom": 0,
  "highlight_line": false,
  "spell_check": true,
