@@ -1,0 +1,5 @@
+{      
+  "cmd": ["Rscript", "-e", "bookdown::preview_chapter('$file'); system('afplay /System/Library/Sounds/Pop.aiff; afplay /System/Library/Sounds/Pop.aiff'); warnings()"],
+  "selector": "text.html.markdown.rmarkdown"
+}
+// redundantly opens PDF

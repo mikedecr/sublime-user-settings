@@ -1,4 +1,4 @@
 {      
-  "cmd": ["open", "-a", "Google Chrome", "$file"],
+  "cmd": ["open", "-a", "Brave Browser", "$file"],
   "selector": "text.html"
 }
